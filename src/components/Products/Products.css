@@ -1,0 +1,22 @@
+.product-main {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.product-content-main {
+  background-color: rgb(241, 241, 241);
+}
+.product-select-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(209, 209, 209);
+  color: rgb(122, 122, 122);
+}
+
+.product-gallery {
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+  height: 75vh;
+  overflow-y: scroll;
+}

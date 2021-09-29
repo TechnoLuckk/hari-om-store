@@ -1,0 +1,58 @@
+.contact-main {
+  display: grid;
+  grid-template-rows: 45% 50%;
+}
+
+.contact-upper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to bottom right,
+    blue,
+    lightgreen,
+    cyan,
+    yellow
+  );
+}
+
+.contact-header {
+  font-size: 3vw;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.contact-sub {
+  font-size: 1.5vw;
+  margin-bottom: 5px;
+}
+
+.contact-sub2 {
+  font-size: 1.5vw;
+}
+
+.contact-lower {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 40vw 40vw;
+  justify-content: space-evenly;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact-profile-image {
+  border-radius: 50%;
+  height: 10vw;
+  width: 10vw;
+}
+
+.contact-map {
+}
+
+/*https://i.imgur.com/ylN5mso.png*/

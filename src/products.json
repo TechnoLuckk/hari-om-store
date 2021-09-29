@@ -1,0 +1,40 @@
+{
+  "copypaper": [
+    {
+      "type": "product",
+      "name": "terra-A4",
+      "cost": "150",
+      "desc": "75gsm copy paper. 300 papers per rem"
+    },
+    {
+      "type": "product",
+      "name": "trident-A4",
+      "cost": "150",
+      "desc": "75gsm copy paper. 300 papers per rem"
+    },
+    {
+      "type": "product",
+      "name": "century-A4",
+      "cost": "150",
+      "desc": "75gsm copy paper. 300 papers per rem"
+    },
+    {
+      "type": "product",
+      "name": "doubleA-A4",
+      "cost": "150",
+      "desc": "75gsm copy paper. 300 papers per rem"
+    },
+    {
+      "type": "product",
+      "name": "spectra-A4",
+      "cost": "150",
+      "desc": "75gsm copy paper. 300 papers per rem"
+    }
+  ],
+  "soap": [],
+  "stationary": [],
+  "disposables": [],
+  "misc": [],
+  "printing": [],
+  "officework": []
+}

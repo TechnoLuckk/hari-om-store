@@ -1,0 +1,9 @@
+/*.products-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+.product-elements {
+  overflow: auto;
+  min-height: 100%;
+} */

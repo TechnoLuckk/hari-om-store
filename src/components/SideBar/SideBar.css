@@ -1,0 +1,56 @@
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+.sidebar-main {
+  background-color: rgb(224, 224, 224);
+  padding: 5px;
+  position: sticky;
+}
+
+.sidebar-main-list {
+  list-style: none;
+}
+
+.sidebar-main-list-element {
+  color: rgb(88, 88, 88);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.sidebar-sub-list {
+  list-style: none;
+  margin-left: 15px;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar-link:hover {
+  color: white;
+}
+
+.sidebar-sub-list-element {
+  color: black;
+  margin: 30px 30px 0px 0px;
+  padding: 5px;
+  cursor: pointer;
+  transition-duration: 0.8s;
+  text-decoration: none;
+}
+
+.sidebar-sub-list-element:hover {
+  border-radius: 5px;
+  color: white;
+  padding-left: 30px;
+  background-image: linear-gradient(
+    to bottom right,
+    blue,
+    green,
+    darkgreen,
+    gold
+  );
+}
