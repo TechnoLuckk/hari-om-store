@@ -19,14 +19,15 @@ function RenderItem() {
         {
           products[productId].map( (product, key) => {
             return (
-              <Grid item>
-              <Card className='render-item-card' sx={{ maxWidth: 345 }}>
+              <Grid className='product-container' item>
+              <Card className='render-item-card' sx={{ maxWidth: 345, position: 'relative', zIndex: -1 }}>
                 <CardActionArea>
                   <CardMedia
                     component='img'
                     height='200px'
                     image={product.image}
                     alt={product.name}
+                    sx={{zIndex: 'modal'}}
                   />
                   <CardContent>
                     <Grid container>

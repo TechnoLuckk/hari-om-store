@@ -19,15 +19,15 @@ function Contact() {
                 <div className="contact-info">
                     <img className='contact-profile-image' src="https://imgur.com/9Oo2Y4R.png" alt='user'/>
                     <div>
-                        <h1>Naveen Dua</h1>
-                        <h2>Owner</h2>
-                        <div>+918287880559</div>
-                        <div>hariomstore234@gmail.com</div>
+                        <h1 className='contact-about-name-big'>Naveen Dua</h1>
+                        <h2 className='contact-about-sub'>Owner</h2>
+                        <div className='contact-about-sub'>+918287880559</div>
+                        <div className='contact-about-sub'>hariomstore234@gmail.com</div>
                     </div>
                 </div>
                 <div className='contact-map'>
                     <a href='https://goo.gl/maps/g3FJQiK7PVXYbL3L8'>
-                    <Card sx={{ maxWidth: 600}}>
+                    <Card sx={{ maxWidth: 600, position: 'relative', zIndex: -1}}>
                         <CardActionArea>
                             <CardMedia 
                                 component='img'
@@ -36,10 +36,10 @@ function Contact() {
                                 alt='map'
                             />
                             <CardContent>
-                                <Typography variant='h6'>
+                                <Typography className='contact-map-big' variant='h6'>
                                     Address
                                 </Typography>
-                                <Typography variant='body1'>
+                                <Typography className='contact-map-mid' variant='body1'>
                                     3013 SANT NAGAR RANI BAGH OPP. M2K PITAMPURA
                                 </Typography>
                             </CardContent>
